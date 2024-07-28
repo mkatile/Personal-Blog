@@ -1,0 +1,30 @@
+header, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header button {
+    margin: 0 10px;
+  }
+  
+  main #postsContainer {
+    margin-top: 20px;
+  }
+  
+  main #postsContainer div {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
