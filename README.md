@@ -1,5 +1,9 @@
 # Personal-Blog
 
+## Description
+
+In this challenge, I will be creating a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle.
+
 ## User Story
 AS A marketing student
 I WANT a personal blog
@@ -31,4 +35,5 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 
-Deployment [link](http://127.0.0.1:3000/blog.html)
+Deployment [link](http://127.0.0.1:3004/assets/index.html)
+
