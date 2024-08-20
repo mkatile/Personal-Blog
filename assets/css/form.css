@@ -46,7 +46,7 @@
   #leftColumnContent {
     height: 100vh;
     position: relative;
-    flex-shrink: 1;
+    flex-shrink: 2;
   }
   
   #rightColumnContent {
@@ -58,13 +58,13 @@
   }
   
   .circle {
-      min-height: 550px;
-      min-width: 550px;
+      min-height: 300px;
+      min-width: 200px;
       background: linear-gradient(#f6a50f,#d2972a,#b78f45, #846a2d);
       border-radius: 50%;
       text-align: center;
       padding: 40px;
-      margin-left: 50px;
+      margin-left: 30px;
       margin-top: 50px;
       position: sticky;
   }  
