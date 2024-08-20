@@ -1,25 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const posts = JSON.parse(localStorage.getItem('posts')) || [];
 
-  function savePost(username, title, content) {
-    posts.push({ username, title, content });
-    localStorage.setItem('posts', JSON.stringify(posts));
-    console.log('Post saved:', { username, title, content });
-  }
+// LIGHT AND DARK MODE
+const modeToggle = document.getElementById('modeToggle');
+const body = document.body;
 
-  function getPosts() {
-    console.log('Retrieved posts:', posts);
-    return posts;
-  }
-
-  function redirectTo(page) {
-    window.location.href = page;
-  }
-// Ensure blogLogic is defined globally
-  window.blogLogic = {
-    savePost,
-    getPosts,
-    redirectTo
-  };
+modeToggle.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');
+    body.classList.toggle('light-mode');
 });
 

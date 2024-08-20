@@ -1,36 +1,25 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const postsContainer = document.getElementById('postsContainer');
-  const backButton = document.getElementById('backButton');
-  const toggleModeButton = document.getElementById('toggleMode');
 
-  if (backButton) {
-    backButton.addEventListener('click', () => {
-      blogLogic.redirectTo('index.html');
-    });
-  }
+// document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    const postsContainer = document.getElementById('postList');
 
-  if (toggleModeButton) {
-    toggleModeButton.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-  }
+const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
 
-  if (postsContainer) {
-    const posts = blogLogic.getPosts();
-    console.log('Posts to display:', posts);
-    if (posts.length === 0) {
-      postsContainer.innerHTML = '<p>No blog posts yet.</p>';
-    } else {
-      posts.forEach(post => {
+if (posts.length > 0) {
+    posts.forEach(function(post) {
         const postElement = document.createElement('div');
-        postElement.innerHTML = `
-          <h2>${post.title}</h2>
-          <p>${post.content}</p>
-          <p><em>by ${post.username}</em></p>
-        `;
-        postsContainer.appendChild(postElement);
-      });
-    }
-  }
-});
+        postElement.classList.add('post-container');
 
+        postElement.innerHTML = `
+            <h3>${post.blogTitle}</h3>
+            <p>${post.content}</p>
+            <span>Posted by: ${post.username}</span>
+        `;
+
+        postsContainer.appendChild(postElement);
+    });
+} else {
+    postsContainer.innerHTML = 'No blog posts to display.';
+};
+
+});

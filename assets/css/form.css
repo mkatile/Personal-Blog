@@ -1,27 +1,191 @@
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+  /* Style the header */
+  /* note to self, this will only apply to the MAIN PAGE */
+
+  body {
+    position: relative;
+    /* overflow: auto; */
   }
   
-  form label {
-    display: block;
-    margin-top: 10px;
+  header {
+      border-bottom: 15px double black;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+    }
+  
+    nav button{
+      margin: 15px;
+      border: transparent;
+      background-color: transparent;
+      font-size: large;
+    }
+  
+  
+  section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
-  form input, form textarea {
-    width: 100%;
-    padding: 8px;
+  .mainPage {
+    display: flex;
+    flex-direction: row;
     margin-top: 5px;
   }
   
-  form button {
-    margin-top: 15px;
-    padding: 10px 20px;
+  .columns {
+    width: 50%;
+    display: flex;
   }
   
-  #error-message {
-    color: red;
-    margin-top: 10px;
+  #leftColumnContent {
+    height: 100vh;
+    position: relative;
+    flex-shrink: 1;
   }
+  
+  #rightColumnContent {
+    border-left: 15px double black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .circle {
+      min-height: 550px;
+      min-width: 550px;
+      background: linear-gradient(#f6a50f,#d2972a,#b78f45, #846a2d);
+      border-radius: 50%;
+      text-align: center;
+      padding: 40px;
+      margin-left: 50px;
+      margin-top: 50px;
+      position: sticky;
+  }  
+  
+  h1 {
+      color: white;
+      border-radius: 0%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding: 60px 10px;
+      margin-top: 80px;
+    }
+   
+    /* Style for the right column */
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 120px;
+  }
+  
+  #blogForm {
+    margin: 20px; 
+  }
+  
+  .formInfo {
+   height: 100vh;
+  }
+   
+  .formTitle {
+   padding-bottom: 10px;
+   text-align: center;
+  } 
+  
+  .input-group {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #submitHere {
+    color: #f0ead6;
+    background: linear-gradient(#f6a50f,#d2972a,#b78f45);
+    border-radius: 50px;
+    padding: 30px;
+    font-size: large;
+    width: 100%;
+    border: none;
+    cursor: grab;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  label {
+    font-size: large;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+  }
+  
+  
+  input {
+    width: 500px;
+    border-radius: 50px;
+    margin: 5px;
+    border: 2px solid transparent;
+    position: relative;
+  }
+  
+  :placeholder-shown {
+    font-style: italic;
+    padding: 20px
+  }
+  
+  #username {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  #blogTitle {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  #content {
+    padding: 20px;
+    text-align: left;
+    height: 200px;
+    width: 500px;
+    margin: 5px;
+    border: 2px solid transparent;
+  }
+  
+  textarea {
+    padding: 20px;
+    resize: vertical;
+    border-radius: 50px;
+    margin: 5px;
+    border: 2px solid transparent;
+  }
+  
+    /* Dark Mode
+    .dark {
+      background-color: #243447;
+      height: 100vh;
+      color: #f0ead6;
+    }
+  
+  
+    /* Light Mode */
+    /* .light {
+      background-color: #f0ead6;
+      color: #243447;
+      height: 100vh;
+  
+    } */
   

@@ -1,30 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Blog</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Blogging" content="Create your first blog here!">
+    <title>Main Blog Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
 </head>
+
 <body>
-  <div class="container">
-    <h1>Create a Blog Post</h1>
-    <form id="blogForm">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      
-      <label for="title">Blog Title:</label>
-      <input type="text" id="title" name="title" required>
-      
-      <label for="content">Blog Content:</label>
-      <textarea id="content" name="content" required></textarea>
-      
-      <button type="submit">Submit</button>
-      <p id="error-message"></p>
-    </form>
-  </div>
-  <script src="/assets/js/logic.js"></script>
-  <script src="/assets/js/form.js"></script>
+    <header>
+        <nav>
+            <a href="./blog.html"></a></li>
+            <button id="modeToggle" class="dark-mode light-mode">☀️</button>
+        </nav>
+    </header>
+
+<section class="mainPage">
+<div class="columns">
+    <div id="leftColumnContent">
+            <div class="circle">
+                <h1>My First Blog</h1>
+            </div>
+        </div>
+    </div>
+    
+
+ <div class="columns">
+    <div id="rightColumnContent">
+        <div class="formInfo">
+
+            <form id="blogForm" method="POST">
+                <label class="formTitle" for="formTitle">
+                    <h2>What's on your mind?</h2>
+                </label>
+
+                <div class="input-group">
+                    <label for="username">Your Name</label>
+                    <input type="text" name="username" id="username" placeholder="Janie Williams" />
+                </div>
+                <div class="input-group">
+                    <label for="blogTitle">Blog Title</label>
+                    <input type="text" name="blogTitle" id="blogTitle" placeholder="The Hills Are Alive" />
+                </div>
+                <div class="input-group">
+                    <label for="content">Blog Content</label>
+                        <textarea id="content" name="content" placeholder="With The Sound of Blogging" required></textarea>
+                </div>
+                <div id="msg"></div>
+
+                <button type="submit" id="submitHere" value="Be Inspired"><a href="./blog.html"><strong>Submit</strong></a></button>
+            </form>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="./js/form.js"></script>
+    <script src="./js/blog.js"></script>
+    <script src="./js/logic.js"></script>
+
+   <footer>
+   </footer>
+
 </body>
 </html>

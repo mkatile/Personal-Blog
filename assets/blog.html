@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog Posts</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="/assets/css/blog.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Blogs</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/blog.css">
 </head>
 <body>
-  <header>
-    <h1>Blog Posts</h1>
-    <button id="toggleMode">Light/Dark Mode</button>
-    <button id="backButton">Back</button>
-  </header>
-  <main>
-    <div id="postsContainer"></div>
-  </main>
-  <footer>
-    <a href="https://github.com/mkatile/Personal-Blog.git">Developer's Portfolio</a>
-  </footer>
-  <script src="/assets/js/logic.js"></script>
-  <script src="/assets/js/blog.js"></script>
+    <header>
+        <nav>
+            <h1>My Blogs</h1>
+            <button id="backButton"><a href="./index.html">Back</a></button>
+            <button id="modeToggle" class="dark-mode light-mode">☀️</button>
+        </nav>
+</header>
+
+    <main id="postList">
+
+    </main>
+
+    <footer>
+        <br><div class="blogPageInfo">
+            <p><strong>Rhianna's</strong> <a href=https://github.com/rhiannawilson>Portfolio</a></p>
+            <p><strong>Blog:</strong> Full-Stack Blog</p>
+            <p><strong>Email:</strong> rhianna@bmail.com</p>
+        </div>
+        <p id="withLove"> Made with ❤️ by Rhianna <br> &copy; 2024 All rights reserved</p>
+
+        <script src="./js/blog.js"></script>
+        <script src="./js/logic.js"></script>
+
+      </footer>
 </body>
 </html>
-
-
-
