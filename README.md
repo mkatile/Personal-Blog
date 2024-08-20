@@ -35,5 +35,11 @@ THEN I can see the title, the content, and the author of the post.
 WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 
+## Screenchots
+<img width="1045" alt="Screen Shot 2024-08-08 at 10 36 52 PM" src="https://github.com/user-attachments/assets/798b1cf1-369e-4c25-bb9c-5a9053906a41">
+<img width="1020" alt="Screen Shot 2024-08-08 at 10 37 55 PM" src="https://github.com/user-attachments/assets/8a7211c3-0f31-4e56-856c-d0e800950e25">
+<img width="999" alt="Screen Shot 2024-08-08 at 10 38 32 PM" src="https://github.com/user-attachments/assets/f1dc2b56-288e-4133-abc0-74989c12caca">
+
+
 Deployment [link](http://127.0.0.1:3004/assets/index.html)
 
