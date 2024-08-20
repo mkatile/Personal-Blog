@@ -59,7 +59,7 @@
   
   .circle {
       min-height: 300px;
-      min-width: 200px;
+      min-width: 300px;
       background: linear-gradient(#f6a50f,#d2972a,#b78f45, #846a2d);
       border-radius: 50%;
       text-align: center;
@@ -114,7 +114,7 @@
     border-radius: 50px;
     padding: 30px;
     font-size: large;
-    width: 100%;
+    width: 60%;
     border: none;
     cursor: grab;
     text-decoration: none;
@@ -172,20 +172,17 @@
     margin: 5px;
     border: 2px solid transparent;
   }
-  
-    /* Dark Mode
     .dark {
       background-color: #243447;
       height: 100vh;
       color: #f0ead6;
     }
   
-  
-    /* Light Mode */
-    /* .light {
+    .light {
       background-color: #f0ead6;
       color: #243447;
       height: 100vh;
   
-    } */
+    } 
+    
   
