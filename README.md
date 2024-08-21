@@ -36,9 +36,17 @@ WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 
 ## Screenchots
-<img width="1202" alt="Screen Shot 2024-08-20 at 12 05 31 AM" src="https://github.com/user-attachments/assets/7cc84fed-8f29-44c3-be6f-215808618fe2">
-<img width="1190" alt="Screen Shot 2024-08-20 at 12 06 08 AM" src="https://github.com/user-attachments/assets/76e9b1f0-2860-4862-bf03-e8ecd3bc0d5e">
+<img width="1018" alt="Screen Shot <img width="1022" alt="Screen Shot 2024-08-20 at 8 46 58 PM" src="https://github.com/user-attachments/assets/53d590d7-b114-4391-8127-166ee01591b3">
+2024-08-20 at 8 38 37 PM" src="https://gi<img width="1017" alt="Screen Shot 2024-08-20 at 8 47 54 PM" src="https://github.com/user-attachments/assets/83fce283-18a5-419c-afe8-769820d59747">
+thub.com/user-attachments/assets/f<img width="1016" alt="Screen Shot 2024-08-20 at 8 46 19 PM" src="https://github.com/user-attachments/assets/c4b78aa9-a1cc-4e2c-a06e-99e1e780a7da">
+9cdd7c2-beb3-4d1b-ab5b-fa2aa88c8614">
 
 
-Deployment [link](https://thriving-longma-596213.netlify.app)
+## Mock-up
+
+https://github.com/user-attachments/assets/5276e247-b2e1-4d3d-8553-c624dd8fab45
+
+
+
+Deployment [link](https://comforting-bunny-ff3c86.netlify.app)
 
