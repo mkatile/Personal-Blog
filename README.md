@@ -36,9 +36,8 @@ WHEN I view the footer,
 THEN I am presented with a link to the developer's portfolio.
 
 ## Screenchots
-<img width="1045" alt="Screen Shot 2024-08-08 at 10 36 52 PM" src="https://github.com/user-attachments/assets/798b1cf1-369e-4c25-bb9c-5a9053906a41">
-<img width="1020" alt="Screen Shot 2024-08-08 at 10 37 55 PM" src="https://github.com/user-attachments/assets/8a7211c3-0f31-4e56-856c-d0e800950e25">
-<img width="999" alt="Screen Shot 2024-08-08 at 10 38 32 PM" src="https://github.com/user-attachments/assets/f1dc2b56-288e-4133-abc0-74989c12caca">
+<img width="1202" alt="Screen Shot 2024-08-20 at 12 05 31 AM" src="https://github.com/user-attachments/assets/7cc84fed-8f29-44c3-be6f-215808618fe2">
+<img width="1190" alt="Screen Shot 2024-08-20 at 12 06 08 AM" src="https://github.com/user-attachments/assets/76e9b1f0-2860-4862-bf03-e8ecd3bc0d5e">
 
 
 Deployment [link](https://thriving-longma-596213.netlify.app)

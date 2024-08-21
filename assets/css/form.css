@@ -1,8 +1,8 @@
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
-  --primary-color: #007bff;
-  --form-background-color: #f0ead6;
+  --primary-color: #1f3b59;
+  --form-background-color: white;
   --form-button-background: #f6a50f;
   --form-button-text: #ffffff;
   --input-border-color: #000000;
@@ -13,7 +13,7 @@
   --background-color: #121212;
   --text-color: #ffffff;
   --primary-color: #1e90ff;
-  --form-background-color: #333333;
+  --form-background-color: none;
   --form-button-background: #1e90ff;
   --form-button-text: #ffffff;
   --input-border-color: #ffffff;
