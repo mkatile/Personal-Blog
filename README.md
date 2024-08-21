@@ -41,5 +41,5 @@ THEN I am presented with a link to the developer's portfolio.
 <img width="999" alt="Screen Shot 2024-08-08 at 10 38 32 PM" src="https://github.com/user-attachments/assets/f1dc2b56-288e-4133-abc0-74989c12caca">
 
 
-Deployment [link](http://127.0.0.1:3004/assets/index.html)
+Deployment [link](https://thriving-longma-596213.netlify.app)
 

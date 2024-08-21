@@ -8,62 +8,61 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/form.css">
 </head>
-
 <body>
     <header>
         <nav>
-            <a href="./blog.html"></a></li>
-            <button id="modeToggle" class="dark-mode light-mode">☀️</button>
+            <a href="./blog.html">Blog</a>
+            <!-- Single button for toggling between light and dark mode -->
+            <button id="modeToggle">☀️</button>
         </nav>
     </header>
 
-<section class="mainPage">
-<div class="columns">
-    <div id="leftColumnContent">
-            <div class="circle">
-                <h1>My First Blog</h1>
+    <section class="mainPage">
+        <div class="columns">
+            <div id="leftColumnContent">
+                <div class="circle">
+                    <h1>My First Blog</h1>
+                </div>
             </div>
         </div>
-    </div>
-    
 
- <div class="columns">
-    <div id="rightColumnContent">
-        <div class="formInfo">
+        <div class="columns">
+            <div id="rightColumnContent">
+                <div class="formInfo">
+                    <form id="blogForm" method="POST">
+                        <label class="formTitle" for="formTitle">
+                            <h2>What's on your mind?</h2>
+                        </label>
 
-            <form id="blogForm" method="POST">
-                <label class="formTitle" for="formTitle">
-                    <h2>What's on your mind?</h2>
-                </label>
+                        <div class="input-group">
+                            <label for="username">Your Name</label>
+                            <input type="text" name="username" id="username" placeholder="Janie Williams" />
+                        </div>
+                        <div class="input-group">
+                            <label for="blogTitle">Blog Title</label>
+                            <input type="text" name="blogTitle" id="blogTitle" placeholder="The Hills Are Alive" />
+                        </div>
+                        <div class="input-group">
+                            <label for="content">Blog Content</label>
+                            <textarea id="content" name="content" placeholder="With The Sound of Blogging" required></textarea>
+                        </div>
+                        <div id="msg"></div>
 
-                <div class="input-group">
-                    <label for="username">Your Name</label>
-                    <input type="text" name="username" id="username" placeholder="Janie Williams" />
+                        <button type="submit" id="submitHere" value="Be Inspired">
+                            <a href="./blog.html"><strong>Submit</strong></a>
+                        </button>
+                    </form>
                 </div>
-                <div class="input-group">
-                    <label for="blogTitle">Blog Title</label>
-                    <input type="text" name="blogTitle" id="blogTitle" placeholder="The Hills Are Alive" />
-                </div>
-                <div class="input-group">
-                    <label for="content">Blog Content</label>
-                        <textarea id="content" name="content" placeholder="With The Sound of Blogging" required></textarea>
-                </div>
-                <div id="msg"></div>
-
-                <button type="submit" id="submitHere" value="Be Inspired"><a href="./blog.html"><strong>Submit</strong></a></button>
-            </form>
-            
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <script src="./js/form.js"></script>
     <script src="./js/blog.js"></script>
     <script src="./js/logic.js"></script>
 
-   <footer>
-   </footer>
+    <footer>
+    </footer>
 
 </body>
 </html>
